@@ -3,9 +3,9 @@
 "Cattle, not pets" is a commonly used analogy meant to explain architectural patterns in the Cloud.
 Here we are making use of it to explain some of the use case for a container, in contrast to a Virtual Machine.
 
-Microservice-based architectures commonly uses Containerization, while a monol
+Microservice-based architectures commonly uses Containerization, while a monolitich application is commonly on a Virtual Machine. We will not go further into Microservices here, but "Cattle, not pets" is a core idea there.
 
-## The pet
+## The pet - the Virtual Machine
 ![Pernille](../.attachments/pernille.jpg)
 
 This is our pet, Pernille. She is precious, and we spend a lot of time, effort and money to keep her healthy and happy.
@@ -42,14 +42,17 @@ The operations of the entire farm is not dependent on just one animal. If one an
 
 ## We dont want Pets, we want cattle
 
-So, in this analogy, the pet is refering to one or more servers.
-The cattle are microservices, in the form of Containers.
+So, in this analogy, the pet is refering to servers.
+The cattle are microservices, in the form of containers.
 
-Usually a Virtual Machine is costly and time-consuming to set up and maintain. Automation around this exist, but the point is that a Virtual Machine inherently needs maintenance to remain Safe, Updated and consistent with the environment it is meant for.
+Usually, a Server is costly and time-consuming to set up and maintain. Automation around this exist, but the point is that a Virtual Machine inherently needs maintenance to remain Safe, Updated and consistent with the environment it is meant for.
+
+They are typically set up manually and are in turn prone to errors and misconfigurations.
 If the system is not structured with High-Availability or Redundancy in mind, a single server fault could risk bringing the whole system down.
 
 Even if we set up multiple servers to provide HA or redundancy, the time and effort spent to maintan and set these servers up, are huge.
+In architecture based around "Cattle", we usually refer to Containers. Containers are easy to get up and running, and they are easily run in sets of multiple containers to avoid single points of failure.
 
-In a architecture based around "Cattle", we usually refer to Containers. Containers are super easy to get up and running, and they are easilly run in sets of 2 or more, and loadbalanced to avoid single points of failure.
+Containers are not set up individually or manually, and we usually don't have an awarness to any single pod, they are numbered, such as a single animal in a herd would be.
 
-Since containers are pre-packaged, prerequisites dont need to be set up, and we dont spend time maintaining the containers themselves.
+Since containers are pre-packaged, prerequisites don't need to be set up, and we don't spend time maintaining the containers themselves.
