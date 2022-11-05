@@ -1,32 +1,32 @@
 ﻿# Cattle, not pets
 
 "Cattle, not pets" is a commonly used analogy meant to explain architectural patterns in the Cloud.
-Here we are making use of it to explain some of the use case for a container, in contrast to a Virtual Machine.
+Here we are making use of it to explain some of the use cases for a container, in contrast to a Virtual Machine.
 
-Microservice-based architectures commonly uses Containerization, while a monolitich application is commonly on a Virtual Machine. We will not go further into Microservices here, but "Cattle, not pets" is a core idea there.
+Microservice-based architectures commonly use Containerization, while a monolithic application is commonly on a Virtual Machine. We will not go further into Microservices here, but "Cattle, not pets" is a core idea there.
 
 ## The pet - the Virtual Machine
+
 ![Pernille](../.attachments/pernille.jpg)
 
 This is our pet, Pernille. She is precious, and we spend a lot of time, effort and money to keep her healthy and happy.
-She is a house pet, and  she needs a lot of care and attention. She has her own bed, her own food and her own shampoo, that is dedicated only to her.
+She is a house pet, and she needs a lot of care and attention. She has her own bed, food and shampoo dedicated only to her.
 
-Imagine, if you will, that Pernille suddenly falls ill. The family are going to be devastated, and of course spend a lot of money and  time to make sure she recovers.
+Imagine, if you will, that Pernille suddenly falls ill. The family is going to be devastated, and of course, spend a lot of money and time to make sure she recovers.
 
-If she __did__ die, we would no longer have a pet, and of course everyone would be devastated.
+If she __did__ die, we would no longer have a pet, and of course, everyone would be devastated.
 
-If we were ever to get a new pet, a lot of cost and time is attached to raise this new pet, as well as getting them vaccinated, etc.
+If we were ever to get a new pet, a lot of cost and time is attached to raising this new pet, as well as getting them vaccinated, etc.
 
 
 ## The "Cattle"
 
-*(Yes, these are not cattle. At this point i just want to show of these Goats we have.
+*(Yes, these are not cattle. At this point, I just want to show these Goats <3)*
 Think of them as Cattle for the analogy's sake. :))*
-
 
 ![Goats](../.attachments/geiter.jpg)
 
-On the other hand, imagine we have a farm, where we have some free-roaming goats. 
+On the other hand, imagine we have a farm, where we have some free-roaming goats.
 
 The Goats that live on our property are very self-sufficient.
 
