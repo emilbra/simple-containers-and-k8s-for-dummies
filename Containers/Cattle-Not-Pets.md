@@ -18,11 +18,10 @@ If she __did__ die, we would no longer have a pet, and of course, everyone would
 
 If we were ever to get a new pet, a lot of cost and time is attached to raising this new pet, as well as getting them vaccinated, etc.
 
-
 ## The "Cattle"
 
-*(Yes, these are not cattle. At this point, I just want to show these Goats <3)*
-Think of them as Cattle for the analogy's sake. :))*
+*(Yes, these are not cattle. I just want to show these Goats <3)*
+Think of them as Cattle for the analogy's sake. :))
 
 ![Goats](../.attachments/geiter.jpg)
 
@@ -32,15 +31,15 @@ The Goats that live on our property are very self-sufficient.
 
 They eat grass, and we don't spend a lot of effort, time or money to keep them healthy.
 
-They still need some basic facilities, such as a shelter from rain, but not nearly as much as the pet.
+They still need some basic facilities, such as a shelter from rain, but not nearly as much as a pet.
 
-If one of the cattle fall ill, you would usually not spend very much money or effort to keep it alive. 
+If one of the cattle fall ill, you would usually not spend very much money or effort to keep it alive.
 
 (Of course, I dont want that to happen either!)
 
 The operations of the entire farm is not dependent on just one animal. If one animal dies, we are able to continue mostly as normal, usually replacing this animal with another one.
 
-## We dont want Pets, we want cattle
+## We dont want pets, we want cattle
 
 So, in this analogy, the pet is refering to servers.
 The cattle are microservices, in the form of containers.
@@ -51,8 +50,11 @@ They are typically set up manually and are in turn prone to errors and misconfig
 If the system is not structured with High-Availability or Redundancy in mind, a single server fault could risk bringing the whole system down.
 
 Even if we set up multiple servers to provide HA or redundancy, the time and effort spent to maintan and set these servers up, are huge.
+
 In architecture based around "Cattle", we usually refer to Containers. Containers are easy to get up and running, and they are easily run in sets of multiple containers to avoid single points of failure.
 
-Containers are not set up individually or manually, and we usually don't have an awarness to any single pod, they are numbered, such as a single animal in a herd would be.
+Containers are not set up individually or manually, and we usually don't have an awarness to any single pod, they are numbered, such as any single animal in a herd would be.
 
-Since containers are pre-packaged, prerequisites don't need to be set up, and we don't spend time maintaining the containers themselves.
+Since containers are pre-packaged, prerequisites don't need to be set up beforehand, and we don't spend time maintaining the containers themselves.
+
+Errors is often resolved by restarting or killing the pod, to restore its initial, working state. Just this example is an extreme time and cost saver contrary to troubleshooting a specific server or service on a specific service.

@@ -5,8 +5,19 @@ It is therefore not dependent on underlying hardware or software, making contain
 
 A key positive with this is that containers can run the same way, no matter where they are run. This if for example usefull in keeping Development and Production environments consistent.
 
-For example, this could be a web-server running a guestbook (which we will show off later), or it could be a service run as an response to an external event.
-The container 
+This could be a web-server running a guestbook (which we will show off later), or it could be a service run as an response to an external event. Just to name a few examples.
+
+Its usefull to allready at this point emphasise the distinction between a Container and a Container Image.
+
+- A Container Image is something that we prepare beforehand. It is a read-only file that can be used to create a container. It is in practice a "snapshot" of a environment, providing an immutable way to run sofware the same way every time it is run. We will look into how to create an image in the next chapter.
+- Only when we run this image, the concept of a Container is created.
+
+Since the image is immutable, doing changes to the container is done by creating a new image.
+Instead of entering the container and doing manual changes, we are forced to version and iterate over container images.
+
+The way the Build-process function for container images makes this way less tedious than this sounds, which we will explore soon.
+
+In practice a Container Image can contain as much, or as little, as its developers want.
 
 ## Containers vs Virtual Machines
 
@@ -22,7 +33,8 @@ In containerization, containers make use of the Operating system of the underlyi
 For Virtual Machines, the whole Operating System is instead virtualized separately for each instance. Running 3 Windows Servers on a Virtualization platform, means that we in practice have three separarate Windows Server Operating Systems running on the Platform. Thats not really efficient, if we dont need it.
 
 Containers are well suited for running applications in a microservices-pattern, and they reduce overhead and resource consumption. They are very lightweight and start up really quickly.
-Additionally, since a container only contains its dependencies, a container is more reliable and easy to troubleshoot since it is made for a specific purpose, avoiding another process or feature on the system crashing the instance.
+Additionally, since a container only contains its dependencies, a container is more reliable and easy to troubleshoot since it is made for a specific purpose. The way that containers are isolated also avoids interference from another process or service on the system crashing the instance.
 
 ## Read further to learn about "Cattle, not Pets"
+
 [cattle, not pets](Cattle-Not-Pets.md)

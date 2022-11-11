@@ -8,10 +8,11 @@ In other words, this tutorial is not in any way meant to be exhaustive, but an i
 After going through this this tutorials contents, you should know about these key topics:
 
 1. What is a Container?
-2. How are containers created?
-3. What Kubernetes is.
-4. Kubernetes architecture.
-5. Some of the Managed Kubernetes Offerings
+2. What is a Container Image?
+3. How are Containers created?
+4. What is Kubernetes?
+5. Kubernetes architecture.
+6. Some of the Managed Kubernetes Offerings
 
 As well as working knowledge of these practical tasks:
 
@@ -25,4 +26,3 @@ As well as working knowledge of these practical tasks:
 This diagram shows the contents of this repository
 
 ![Contents](../.attachments/contents.png)
-
