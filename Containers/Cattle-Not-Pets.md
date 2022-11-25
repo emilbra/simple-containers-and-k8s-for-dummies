@@ -7,7 +7,7 @@ Microservice-based architectures commonly use Containerization, while a monolith
 
 ## The pet - the Virtual Machine
 
-![Pernille](../.attachments/pernille.jpg)
+![Pernille](../.attachments/pernille_cropped.jpg)
 
 This is our pet, Pernille. She is precious, and we spend a lot of time, effort and money to keep her healthy and happy.
 She is a house pet, and she needs a lot of care and attention. She has her own bed, food and shampoo dedicated only to her.
